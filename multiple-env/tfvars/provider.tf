@@ -8,7 +8,9 @@ terraform {
 }
 
 backend "s3" { 
+  
 } 
+
 provider "aws" {
   #configuration options
   region = "us-east-1"
